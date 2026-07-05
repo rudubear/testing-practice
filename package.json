@@ -1,0 +1,20 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "testing testing in javascript",
+  "homepage": "https://github.com/rudubear/testing-practice#readme",
+  "bugs": {
+    "url": "https://github.com/rudubear/testing-practice/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudubear/testing-practice.git"
+  },
+  "license": "ISC",
+  "author": "rudubear",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  }
+}
