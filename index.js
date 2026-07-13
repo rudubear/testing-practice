@@ -1,24 +1,6 @@
-function capitalize(myString) {
-  return myString;
-}
+import { ceaserCipher } from "./myFunctions.js";
+console.log("this is a repo to test out testing with jest");
 
-function reverseString(myString) {
-  return myString;
-}
-
-const calculator = (function () {
-  return {
-    add: function () {},
-    subtract: function () {},
-    divide: function () {},
-    multiply: function () {},
-  };
-})();
-
-function ceaserCipher(myString) {
-  return myString;
-}
-
-function analyzeArray(myArray) {
-  return myArray;
-}
+console.log(ceaserCipher("xyz", 7));
+console.log(ceaserCipher("HeLLo", 7));
+console.log(ceaserCipher("Hello, World!", 7));
